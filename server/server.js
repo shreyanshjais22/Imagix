@@ -4,6 +4,8 @@ import cors from 'cors'
 import userRouter from './routes/userRoutes.js';
 import connectDB from './configs/mongodb.js';
 import imageRouter from './routes/imageRoutes.js';
+import dotenv from "dotenv";
+dotenv.config();
 
 // App Config
 const PORT = process.env.PORT || 4000
